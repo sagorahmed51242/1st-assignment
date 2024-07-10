@@ -121,3 +121,96 @@ body{
 
 /* banner design ends here */
 
+
+
+
+
+
+/* main design starts from here */
+/* width of the main section define here */
+main{
+    width:1140px;
+    height: auto;
+    margin:0 auto;
+}
+/* main design ends from here */
+
+/* Development section starts from here */
+#development{
+    width:1140px;
+    height: 1395px;
+    border-radius: 16px;
+    background:rgba(13, 19, 33, 0.02);
+    margin-bottom: 88px;
+}
+
+.development_container{
+    padding:80px;
+}
+.development_header{
+    margin:0 48px 48px 48px;
+}
+.development_header h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.development_header p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+.first_div,.second_div,.third_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:40px;
+    padding:48px;
+    margin-bottom: 32px;
+    background: white;
+}
+
+.first_div h3,.second_div h3,.third_div h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.first_div p,.second_div p,.third_div p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.first_div a,.second_div a,.third_div a{
+    text-decoration: none;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding:15px;
+
+}
+
+/* Development section ends here */
