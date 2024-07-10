@@ -1,6 +1,8 @@
 /* Here I've added google font */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 /* This is the universal selector */
 *{
     padding:0;
@@ -8,4 +10,114 @@
     box-sizing: border-box;
 }
 
+
+
+/* body width defined */
+/*The design of the figma file's width is 1440px that why here the boyd width define 1440px */
+
+body{
+    max-width:1440px;
+    height: auto;
+    margin:0 auto;
+    font-family: "Azeret Mono", monospace;
+
+}
+
+/* body design ends here */
+
+
+
+
+/* nav bar design starts from here */
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px 120px;
+}
+.nav_bar .nav_title h2{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-family: Azeret Mono;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+}
+.nav_bar .nav_button .nab_btn{
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    width:228px;
+    height: 58px;
+    border:none;
+}
+
+/* nav bar design ends here */
+
+
+
+
+
+/* banner design starts from here */
+.banner_container{
+    background: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:1440px;
+    height: 652px;
+    margin-bottom: 74px;
+}
+.banner_content{
+    width:998px;
+    height: 580px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.banner_content .image{
+    margin-top:32px;
+}
+.banner_header h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin:32px 0 24px 0;
+}
+.banner_des p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding:21px;
+    border:none;
+    text-decoration: none;
+}
+
+/* banner design ends here */
 
